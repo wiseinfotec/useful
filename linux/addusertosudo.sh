@@ -1,6 +1,7 @@
 #!/bin/sh
 
 u=$1
+s=$2
 
 cd /etc/sudoers.d
 t=${u}" ALL=(ALL) NOPASSWD:ALL"
